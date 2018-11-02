@@ -20,13 +20,15 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Nav from './layout/nav'
+import Budget from './components/Budget'
 
 export default class App extends Component {
     render() {
-        console.log('IM MOUNTED')
         return (
             <div>
                 <Nav></Nav>
+                <br />
+                <Budget></Budget>
             </div>
         );
     }
